@@ -35,11 +35,11 @@ export const info = {
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
         {
             emoji: '☕',
-            text: 'fueled by chocolate'
+            text: 'Fueled by chocolate'
         },
         {
             emoji: '🌎',
-            text: 'based in the JKT'
+            text: 'Based in the JKT'
         },
         {
             emoji: "💼",
@@ -83,7 +83,7 @@ export const info = {
     bio: "Hello! I'm Burhan. I'm a software engineer for Pertamina University. I studied Engineering Informatics at Gunadarma University, I enjoy to coding in dark mode with a cup of chocolate ☕. You should hire me!",
     skills:
     {
-        proficientWith: ['laravel', 'codeigniter 3', 'nodejs', 'golang', 'linux'],
+        proficientWith: ['laravel', 'codeigniter 3', 'nodejs', 'golang', 'linux', 'flutter'],
         exposedTo: ['reactjs', 'nextjs', 'python']
     }
     ,
