@@ -27,11 +27,11 @@ export default function About() {
                 className={Style.green}>(main)</span> $</span> ls</p>
             <p style={{color: info.baseColor}}> Proficient With</p>
             <ul className={Style.skills}>
-                {info.skills.proficientWith.map((proficiency, index) => <li key={index}>{proficiency}</li>)}
+                {info.skills.proficientWith.map((proficiency, index) => <li key={index}><img src={proficiency.icon} alt={proficiency.label} style={{ width: "16px", height: "16px" }} /> {proficiency.label}</li>)}
             </ul>
             <p style={{color: info.baseColor}}> Exposed To</p>
             <ul className={Style.skills}>
-                {info.skills.exposedTo.map((skill, index) => <li key={index}>{skill}</li>)}
+                {info.skills.exposedTo.map((skill, index) => <li key={index}><img src={skill.icon} alt={skill.label} style={{ width: "16px", height: "16px" }} /> {skill.label}</li>)}
             </ul>
         </>;
     }
